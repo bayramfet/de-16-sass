@@ -1,0 +1,150 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 103, 138);
+}
+header img {
+  border: 2px solid gray;
+  width: 80px;
+  padding: 3px;
+  border-radius: 10%;
+  margin: 10px;
+}
+header .nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header .nav ul li {
+  padding: 15px;
+}
+header .nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+}
+header .nav ul li a:hover {
+  background-color: #cc6699;
+  border-radius: 5px;
+}
+
+.banner {
+  display: flex;
+  background-color: #cc6699;
+}
+.banner .left {
+  margin: 10px;
+  align-items: center;
+}
+.banner .left h2 {
+  font-size: 22px;
+}
+.banner .left p {
+  font-size: 15px;
+}
+.banner .left button {
+  padding: 10px;
+  border: 3px solid rgb(32, 103, 138);
+  border-radius: 10px;
+}
+.banner img {
+  width: 30%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.articles {
+  display: flex;
+}
+.articles .article1, .articles .article2 {
+  width: 50%;
+  height: 200px;
+  background-color: rgb(32, 103, 138);
+  border: 2px solid gray;
+  margin-left: 5px;
+}
+.articles .article2 {
+  background-color: #cc6699;
+  margin-left: 10px;
+}
+
+.cards {
+  display: flex;
+}
+.cards .card1 {
+  background-color: brown;
+  color: white;
+  width: 25%;
+  height: 200px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 10px;
+}
+.cards .card2 {
+  background-color: rgb(200, 100, 100);
+  color: yellow;
+  width: 25%;
+  height: 200px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 10px;
+}
+.cards .card3 {
+  background-color: blue;
+  color: gray;
+  width: 25%;
+  height: 200px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 10px;
+}
+.cards .card4 {
+  background-color: green;
+  color: black;
+  width: 25%;
+  height: 200px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+footer p {
+  background-color: lightcoral;
+}
+
+.container.pink {
+  background-color: rgb(195, 76, 183);
+}
+
+.container.grenn {
+  background-color: rgb(76, 195, 94);
+}
+
+.container.blue {
+  background-color: rgb(10, 20, 255);
+}
+
+.social1 {
+  background-color: #990000;
+}
+
+.social2 {
+  background-color: #55004E;
+}
+
+.social3 {
+  background-color: #0FA8A1;
+}
+
+.social4 {
+  background-color: #121456;
+}
+
+.social5 {
+  background-color: #64C217;
+}
+
+/*# sourceMappingURL=style.css.map */
